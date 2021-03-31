@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "start": "node index.js"
-    
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +15,10 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mdb-react-ui-kit": "^1.0.0-alpha4",
     "mongoose": "^5.11.15",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.0",
+    "tailwindcss": "^2.0.3"
   }
 }

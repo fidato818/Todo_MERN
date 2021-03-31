@@ -23,11 +23,14 @@ db.once("error", function (err) {
 //   });
 // });
 
-app.listen(3001, () => {
+app.listen(process.env.PORT, () => {
   console.log("server is listening on 3001");
 });
 
-app.use(express.json()); 
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+app.use(express.json());
 
 // if (
 //   process.env.NODE_ENV === "production" ||
